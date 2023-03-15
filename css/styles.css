@@ -3,6 +3,8 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Tilt+Prism&display=swap');
+
 
 /* Styles for the body */
 
@@ -60,3 +62,13 @@ font-family: 'Tilt Prism', cursive;
 	color:#EFBB41;
 	text-shadow: 5px 5px #E46969;
 }
+
+.body-font-name{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		color:#EFBB41;
+	
+}
+
+.language-progress {
+	background-color:#E46969 !important;
+	}
