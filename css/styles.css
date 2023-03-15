@@ -2,6 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 /* Styles for the body */
 
@@ -9,12 +10,16 @@ body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,48,1) 28%, rgba(0,212,255,1) 100%);
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
     background-color: #e0f0ff;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,48,1) 28%, rgba(0,212,255,1) 100%);
 }
 
 .resume-main {
@@ -48,4 +53,10 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.my-font-name{
+font-family: 'Tilt Prism', cursive;
+	color:#EFBB41;
+	text-shadow: 5px 5px #E46969;
 }
